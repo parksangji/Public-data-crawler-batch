@@ -21,9 +21,6 @@ server:
   port: 8080
 
 crawler:
-  schedule:
-    enabled: true
-    cron: 0 0 * * * *
-  url:
-    example1: http://example.com/data1
-    example2: http://example.com/data2
+  exchange:
+    authkey:
+    url: https://www.koreaexim.go.kr/site/program/financial/exchangeJSON
